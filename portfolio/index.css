@@ -224,6 +224,12 @@ nav {
 .hero-text {
   flex: 1;
 }
+/* .project-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+} */
 
 .hero-text h1 {
   font-size: 3.5rem;
@@ -526,11 +532,13 @@ section {
   background: linear-gradient(90deg, var(--secondary), var(--accent));
 }
 
+
 .project-card {
   background: linear-gradient(145deg, #f8f9fa, #e9ecef);
   border-radius: 10px;
   overflow: hidden;
   box-shadow: var(--shadow);
+   flex-wrap: wrap;
   transition: all 0.3s ease;
   margin-bottom: 2rem;
   max-width: 800px;
